@@ -1,0 +1,124 @@
+/* Paleta de colores más llamativa */
+:root {
+    --color-primary: #4B86B4;
+    --color-secondary: #F4A261;
+    --color-tertiary: #2A9D8F;
+    --color-white: #ffffff;
+}
+/* Estilo de color para la sección 1 */
+.section1-bg {
+    background-color: #FFD6BA; /* Color pastel suave */
+  }
+
+  /* Estilo de color para las demás secciones */
+  .section-bg {
+    background-color: #B4E8E2; /* Color pastel suave */
+  }
+
+  /* Estilo de transición entre secciones */
+  .section-transition {
+    transition: background-color 0.5s ease-in-out; /* Transición de color de fondo */
+  }
+body {
+    font-family: 'Borel';
+  }
+
+/* Centrar verticalmente el contenido de la columna izquierda */
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Activar el desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
+/* Centrar verticalmente el contenido de la columna izquierda */
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+/* Cambiar colores de la paleta */
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+
+/* Aplicar fondo y texto al cuerpo */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+.section1-description {
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+  }
+.navbar {
+    position: fixed;
+    height: 90px; /* Ajusta la altura según lo necesario */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFD6BA;
+}
+.btn--action{
+    display: block;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #FFD6BA;;
+    color: #000;
+    transition: all .5s ease 0s; 
+    box-shadow: 0 10px #b57347;
+  }
+  
+  /* .btn--action:hover{
+  box-shadow: inset 0 0 0 .25rem #ffbe76;
+  } */
+  
+  .btn--action span{
+    display: inline-block;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .btn--action span:before{
+    content: '🐾'; 
+    color: #000;
+    font-size: 1rem;
+    font-family: FontAwesome;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 1.5rem;
+    opacity: 0;
+    transition: all .1s ease 0s;
+  }
+  
+  .btn--action:hover span{
+    padding-left: 1.5rem; 
+  }
+  
+  .btn--action:hover span:before{
+    left: 0;
+    opacity: 1;
+  }
+  
+  .btn--action:active {
+    box-shadow: 0 5px #f0932b;
+    transform: translateY(5px);
+  }
+  
