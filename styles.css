@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
 body {
   font-family: "Borel";
 }
@@ -125,4 +126,38 @@ p {
   position: relative;
   background-color: #fff;
   z-index: 100000; /* Coloca la sección por encima del navbar */
+}
+
+.page-title{
+	font-family: 'Coiny', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(imagenes/pexels-rafael-cerqueira-4737484.jpg);
+	background-size: auto;
+	font-size: 5rem;
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: center;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+.btn-primary{
+  background-color: rgba(39, 152, 172, 0.9);
+  border: 0pxs;
+}
+.btn-primary:hover{
+  background-color: rgba(156,222,208,0.8995973389355743);
+  color: #000;
+  border: 0pxs;
 }
