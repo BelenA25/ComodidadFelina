@@ -161,3 +161,21 @@ p {
   color: #000;
   border: 0pxs;
 }
+/* Estilos para el footer */
+.footer {
+  background-color: #f8f9fa; /* Cambia el color al mismo que el fondo del nav bar */
+  color: #6c757d; /* Cambia el color del texto */
+  font-size: 14px; /* Cambia el tamaño de fuente */
+  font-family: 'Borel', sans-serif; /* Cambia el tipo de letra */
+  padding: 40px 0;
+  background: rgb(242,203,158);
+  background: linear-gradient(0deg, rgba(242,203,158,0.742734593837535) 15%, rgba(156,222,208,0.8995973389355743) 74%);
+}
+
+.footer a {
+  color: #007bff; /* Cambia el color de los enlaces */
+}
+
+.footer a:hover {
+  color: #0056b3; /* Cambia el color al pasar el mouse sobre los enlaces */
+}
