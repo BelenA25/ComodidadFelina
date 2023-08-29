@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comodidad Felina</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Borel' rel='stylesheet'>
+</head>
+
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Comodidad Felina</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#que-hacemos">¿Qué hacemos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tipos-de-casas">Tipos de Casas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#casa1">Productos Simplex</a>
+          <a href="simplex.html" id="simplex-link">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#casa2">Productos Duplex</a>
+          <a href="duplex.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#casa3">Productos Triplex</a>
+          <a href="triplex.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#casa4">Productos cuadruplex</a>
+          <a href="cuadruplex.html"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección 1: COMODIDAD FELINA -->
+  <section class="container-fluid  section1-bg section-transition no-navbar">
+    <div class="row">
+      <!-- Columna Izquierda -->
+      <div class="col-md-6 bg-light d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>COMODIDAD FELINA</h1>
+        <p class="section1-description">Descubre nuestras increíbles casas y camas para gatos. Tu gato merece lo mejor.</p>
+        <a href="#que-hacemos" class="btn btn--action"><span>Continuar</span></a>
+      </div>
+      <!-- Columna Derecha -->
+      <div class="col-md-6 text-center">
+        <img src="imagenes/gato principal.png" alt="Gato" class="img-fluid w-100 my-4">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección 2: ¿Qué hacemos? -->
+  <section id="que-hacemos" class="container-fluid text-center py-5 section-bg section-transition">
+    <div class="row justify-content-center align-items-center min-vh-90">
+      <div class="col-md-12">
+        <h2 class="section-title">¿Qué hacemos y quiénes somos?</h2>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="social-media">
+          <p class="h4">Síguenos en nuestras redes sociales:</p>
+          <p class="h4">Facebook: Comodidad Felina</p>
+          <p class="h4">IG: Comodidad_FelinaOficial</p>
+          <p class="h4">Tiktok: ComodidadFelina</p>
+          <p class="h4">Ubicación: Juan de la Rosa, esq. Av. Melchor Perez.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="image-content">
+          <img src="imagenes/WhatsApp Image 2023-08-27 at 08.16.35.jpeg" alt="Nuestra Empresa" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 d-flex flex-column justify-content-center text-center">
+        <div class="text-content">
+          <p>Hola, nosotros somos Comodidad Felina, una empresa que quiere llegar a tu hogar y poder dar esa comodidad a
+            tu gatito. Queremos ser parte de tu familia, por eso llevamos ya 5 años en este hermoso ámbito, cuidando el
+            sueño y la comodidad de tu gatito a la hora de dormir y descansar con las mejores camas y diseños. Estás en
+            las mejores manos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  
+  
+
+
+  <!-- Sección 3: Tipos de Casas -->
+  <section id="tipos-de-casas" class="container text-center py-5">
+    <h2>Tipos de Casas</h2>
+    <!-- ... Resto del contenido ... -->
+  </section>
+
+  <!-- Secciones 4, 5, 6 y 7: Cada Tipo de Casa -->
+  <section id="casa1" class="container text-center py-5">
+    <h2>Casa 1</h2>
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+              <h2 class="page-title">Productos simplex</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/simplex1.jpg" alt="Producto 1" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Cama Felina de Ensueño</h5>
+                  <p class="product-price">$660.00-$725.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>                
+                  <div id="especificaciones-1" class="especificaciones"></div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/simplex2.jpeg" alt="Producto 2" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Cama Elegante de Gato</h5>
+                  <p class="product-price">$550.00-$725.00</p>
+  
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/simplex3.jpg" alt="Producto 3" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Casita</h5>
+                  <p class="product-price">$400.00-$600.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  
+                  <img src="./imagenes/simplex4.jpg" alt="Producto 4" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Rincón Gatuno</h5>
+                  <p class="product-price">$660.00-$725.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  
+                  <img src="./imagenes/simplex5.jpeg" alt="Producto 5" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Cama Cósmica</h5>
+                  <p class="product-price">$780.00-$825.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/simplex6.png" alt="Producto 6" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">Cama Relajante</h5>
+                  <p class="product-price">$560.00-$705.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- ... Resto del contenido ... -->
+  </section>
+
+  <section id="casa2" class="container text-center py-5">
+    <h2>Casa 2</h2>
+    <!-- ... Resto del contenido ... -->
+
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+              <h2 class="page-title">Productos Duplex</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/duplex1.jpg" alt="Producto 1" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">GatoNap Dupla</h5>
+                  <p class="product-price">$750.00-$800.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/duplex2.jpg" alt="Producto 2" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">SuiteFelpa Doble</h5>
+                  <p class="product-price">$550.00-$725.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/duplex3.jpg" alt="Producto 3" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">CatSiesta Dúplex</h5>
+                  <p class="product-price">$800.00-$850.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  
+                  <img src="./imagenes/duplex4.jpg" alt="Producto 4" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">DobleDescanso Felino</h5>
+                  <p class="product-price">$60.00-$72.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  
+                  <img src="./imagenes/duplex5.jpg" alt="Producto 5" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">FelinoFusion</h5>
+                  <p class="product-price">$780.00-$825.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="text-center product-box">
+                  <img src="./imagenes/duplex6.jpg" alt="Producto 6" class="img-thumbnail img-fluid product-image">
+                  <h5 class="box-title">GatoDúplex Dream</h5>
+                  <p class="product-price">$560.00-$705.00</p>
+                  <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  </section>
+
+  <section id="casa3" class="container text-center py-5">
+    <h2>Casa 3</h2>
+    <!-- ... Resto del contenido ... -->
+    
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+          <h2 class="page-title">Productos Triplex</h2>
+      </div>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/triplex1.jpeg" alt="Producto 1" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">GatoNap Dupla</h5>
+              <p class="product-price">$750.00-$800.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/triplex2.jpg" alt="Producto 2" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">Triplex</h5>
+              <p class="product-price">$550.00-$725.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/triplex3.jpg" alt="Producto 3" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">CatSiesta Dúplex</h5>
+              <p class="product-price">$800.00-$850.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              
+              <img src="./imagenes/triplex4.jpg" alt="Producto 4" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">DobleDescanso Felino</h5>
+              <p class="product-price">$60.00-$72.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              
+              <img src="./imagenes/triplex5.jpg" alt="Producto 5" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">FelinoFusion</h5>
+              <p class="product-price">$780.00-$825.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/triplex6.jpg" alt="Producto 6" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">GatoDúplex Dream</h5>
+              <p class="product-price">$560.00-$705.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+  </section>
+
+  <section id="casa4" class="container text-center py-5">
+    <h2>Casa 4</h2>
+    <!-- ... Resto del contenido ... -->
+    
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+          <h2 class="page-title">Productos Cuadruplex</h2>
+      </div>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/cuadruplex1.jpeg" alt="Producto 1" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">GatoNap Dupla</h5>
+              <p class="product-price">$750.00-$800.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/cuadruplex2.jpg" alt="Producto 2" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">cuadruplex</h5>
+              <p class="product-price">$550.00-$725.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/cuadruplex3.jpg" alt="Producto 3" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">CatSiesta Dúplex</h5>
+              <p class="product-price">$800.00-$850.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              
+              <img src="./imagenes/cuadruplex4.jpg" alt="Producto 4" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">DobleDescanso Felino</h5>
+              <p class="product-price">$60.00-$72.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              
+              <img src="./imagenes/cuadruplex5.jpg" alt="Producto 5" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">FelinoFusion</h5>
+              <p class="product-price">$780.00-$825.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="text-center product-box">
+              <img src="./imagenes/cuadruplex6.jpg" alt="Producto 6" class="img-thumbnail img-fluid product-image">
+              <h5 class="box-title">GatoDúplex Dream</h5>
+              <p class="product-price">$560.00-$705.00</p>
+              <button class="btn btn-primary mt-3" onclick="mostrarAgradecimiento(this)">Agregar al carrito</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+  </section>
+
+  <!-- Sección 8: Gracias por su compra -->
+  <section id="gracias" class="container text-center py-5">
+    <h2>Gracias por su compra</h2>
+    <!-- ... Resto del contenido ... -->
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
