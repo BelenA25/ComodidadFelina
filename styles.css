@@ -30,7 +30,9 @@ body {
     justify-content: center;
     height: 100%;
 }
-
+p, span {
+  font-family:Verdana, Geneva, Tahoma, sans-serif !important; 
+}
 /* Activar el desplazamiento suave */
 html {
     scroll-behavior: smooth;
